@@ -1,0 +1,163 @@
+.copyright {
+    text-align: center;
+    font-size: 8px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    color: #fff;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Ruslan+Display);
+@import url(https://fonts.googleapis.com/css?family=lato);
+
+body {
+  background-color: #942424;
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-image: -webkit-repeating-linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    -webkit-repeating-linear-gradient(60deg, rgba(0, 0, 0, 0.1), rgba(
+            0,
+            0,
+            0,
+            0.1
+          )
+          1px, transparent 1px, transparent 60px);
+
+  background-image: repeating-linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    ),
+    repeating-linear-gradient(
+      60deg,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1) 1px,
+      transparent 1px,
+      transparent 60px
+    );
+
+  background-size: 70px 120px;
+}
+
+.spider {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  margin: 60px auto 0;
+  position: relative;
+  overflow: hidden;
+  background: #942424;
+  box-shadow: inset 0 0 0 40px #942424;
+}
+
+.spider:after {
+  content: "s";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #c66;
+  border-radius: 5px;
+  position: absolute;
+  margin: auto;
+  top: -815px;
+  bottom: 0;
+  left: 0;
+  right: -844px;
+  background: #000;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+
+  box-shadow: -462px -136px 0 -46px #942424, -441px -158px 0 -42px #942424,
+    -516px -83px 0 08px #942424, -520px -79px 0 15px #000,
+    -532px -68px 0 15px #942424, -519px -71px 0 15px #000,
+    -528px -80px 0 15px #000, -636px 40px 1px -20px #000,
+    -638px 42px 1px -20px #000, -640px 44px 1px -20px #000,
+    -642px 46px 1px -20px #000, -644px 48px 1px -20px #000,
+    -711px 116px 0 -46px #942424, -658px 62px 0 8px #942424,
+    -654px 58px 0 16px #000, -638px 42px 0 15px #942424, -648px 52px 0 20px #000,
+    /*2*/ -732px 138px 0 -40px #942424, -658px 62px 0 34px #942424,
+    -668px -90px 0 4px #942424, -507px 72px 0 4px #942424,
+    -515px -81px 0 37px #942424, -520px -80px 0 4px #000,
+    -530px -65px 0 56px #000 /*3*/, -644px 48px 0 53px #000;
+}
+
+.spider:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  position: absolute;
+  margin: auto;
+  top: -20px;
+  bottom: -0px;
+  left: 600px;
+  right: 0px;
+  background: #222;
+  border-radius: 100%;
+  z-index: 99;
+  box-shadow: -460px -110px 0 50px rgba(255, 255, 255, 0),
+    -380px -10px 0 200px rgba(255, 255, 255, 0), -380px 0 0 #000,
+    -380px 15px 0 #000, -380px 20px 0 #000;
+}
+
+h1 {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 52px;
+  color: #ffcc66;
+  font-family: Ruslan Display;
+  position: relative;
+  width: 600px;
+
+  text-shadow: 1px 1px 0 red;
+}
+
+a {
+  display: block;
+  margin: 100px auto 20px;
+  text-align: center;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  z-index: 999;
+  text-decoration: none;
+  font-weight: 200;
+  font-family: lato;
+}
+
+p {
+  width: 350px;
+  font-family: lato;
+  margin: 0px auto 0px;
+  text-align: right;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+}
